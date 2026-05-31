@@ -1,12 +1,12 @@
 from fastapi import APIRouter
 from fastapi import HTTPException
 
-from app.models.schemas import (
+from models.schemas import (
     PerguntaRequest,
     PerguntaResponse
 )
 
-from app.services.agent_service import (
+from services.agent_service import (
     executar_agente
 )
 

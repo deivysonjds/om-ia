@@ -6,10 +6,10 @@ from langchain_core.messages import HumanMessage
 from langchain_core.messages import SystemMessage
 from langchain_openai import ChatOpenAI
 
-from app.agent.state import AgentState
-from app.services.vehicle_service import buscar_veiculos
-from app.services.filter_service import filtrar_carros
-from app.config import LLM_MODEL
+from agent.state import AgentState
+from services.vehicle_service import buscar_veiculos
+from services.filter_service import filtrar_carros
+from config import LLM_MODEL
 
 
 def _get_llm():

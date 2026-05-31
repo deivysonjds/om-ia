@@ -1,4 +1,4 @@
-from app.models.schemas import CarroResponse
+from models.schemas import CarroResponse
 
 def filtrar_carros(
     carros: list[CarroResponse],

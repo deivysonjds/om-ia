@@ -1,7 +1,7 @@
 import requests
 
-from app.models.schemas import CarroResponse
-from app.config import URL_API
+from models.schemas import CarroResponse
+from config import URL_API
 
 
 def buscar_veiculos() -> list[CarroResponse]:

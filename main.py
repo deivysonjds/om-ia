@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from app.routes.perguntar import router
+from routes.perguntar import router
 
 app = FastAPI(
     title="AutoConsult API",

@@ -1,4 +1,4 @@
-from app.agent.graph import agente
+from agent.graph import agente
 
 
 def executar_agente(pergunta: str):

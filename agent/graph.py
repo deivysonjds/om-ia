@@ -1,9 +1,9 @@
 from langgraph.graph import END
 from langgraph.graph import StateGraph
 
-from app.agent.state import AgentState
+from agent.state import AgentState
 
-from app.agent.nodes import (
+from agent.nodes import (
     no_entrada,
     no_classificar,
     no_recuperar,
